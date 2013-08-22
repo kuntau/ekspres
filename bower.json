@@ -1,0 +1,14 @@
+{
+  "name": "ekspres",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7",
+    "angular-ui": "~0.4.0",
+    "bootstrap.css": "~2.3.2"
+  }
+}
