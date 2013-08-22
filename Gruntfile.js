@@ -29,12 +29,9 @@ module.exports = function (grunt) {
         files: ['app/views/**/*.jade'],
         options: { livereload: reloadPort },
       },
-      styl: {
-        files: ['app/views/style/*.styl'],
-        task: ['develop', 'delayed-livereload']
-      },
       css: {
-        files: ['public/css/*.css'],
+        files: ['app/views/style/*.styl'],
+        tasks: [ 'stylus' ],
         options: { livereload: reloadPort }
       },
       coffee: {
