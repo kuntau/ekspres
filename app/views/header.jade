@@ -1,16 +1,18 @@
 h1
   a( href='/' )
-    img.img-responsive(data-src='holder.js/940x250/industrial')
+    img.img-responsive(data-src='holder.js/940x250')
 
-nav.navbar.navbar-default
+nav.navbar.navbar-inverse
+  a.navbar-brand( href='/')
+    | Kuntau Blog
   ul.nav.navbar-nav
-    li: a( href='http://kuntau.org')
+    li: a( href='#products')
       | Products
-    li.active: a( href='http://kuntau.org')
+    li.active: a( href='#customers')
       | Customers
-    li: a( href='http://kuntau.org')
+    li: a( href='#contact')
       | Contact
-    li: a( href='http://kuntau.org')
+    li: a( href='#about')
       | About
 
   form.navbar-form.navbar-right(role='search')
@@ -21,3 +23,6 @@ nav.navbar.navbar-default
           span.glyphicon.glyphicon-search
 
 p.lead Lorem sapiente doloribus ipsa ut dolorem. Suscipit ex earum perspiciatis libero magni libero, lorem modi dolor quia doloribus voluptates. Natus sit blanditiis vel eos ab vel laborum rerum? Suscipit dolores.
+a.btn.btn-primary.btn-lg( href='#')
+  | Learn more &nbsp;
+  b.glyphicon.glyphicon-chevron-right
