@@ -27,6 +27,14 @@
 				"Package Control: Install Package"
 			],
 			[
+				"pcu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
 				"wwt",
 				"Word Wrap: Toggle"
 			],
@@ -142,12 +150,13 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								296,
+								296
 							]
 						],
 						"settings":
 						{
+							"highlight_line": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"vintage":
 							{
@@ -170,7 +179,7 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 0
+								"xpos": 2
 							}
 						},
 						"translation.x": 0.0,
