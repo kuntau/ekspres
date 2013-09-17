@@ -15,9 +15,9 @@ html(lang='en')
       script(src="/components/holderjs/holder.js")
       script(src='http://localhost:35729/livereload.js')
   body(ng-app)
-    .container
-      header
-        include header
+    header.container
+      include header
+    section.container
       block content
-      .footer
-        block footer
+    footer.container
+      include footer
