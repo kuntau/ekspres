@@ -2,20 +2,19 @@ doctype 5
 html(lang='en')
   head
     meta(charset='UTF-8')
-    meta(name='viewport', content='width=device-width')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
     title= title
     block css
       link(rel='stylesheet', href='/css/style.css')
       link(rel='stylesheet', href="/components/bootstrap/dist/css/bootstrap.min.css")
-      // link(rel='stylesheet', href="/components/bootstrap/dist/css/bootstrap-theme.min.css")
+      //- link(rel='stylesheet', href="/components/bootstrap/dist/css/bootstrap-theme.min.css")
     block js
+      script(src='http://localhost:35729/livereload.js')
       script(src="/components/jquery/jquery.min.js")
       script(src='/components/angular/angular.js')
-      script(src="/components/bootstrap/dist/css/bootstrap-theme.min.css")
       script(src="/components/holderjs/holder.js")
-      script(src='http://localhost:35729/livereload.js')
   body(ng-app)
-    header.container
+    header
       include header
     section.container
       block content
